@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "cyberpunk_implants:item/reinforced_tendons"
+  }
+}

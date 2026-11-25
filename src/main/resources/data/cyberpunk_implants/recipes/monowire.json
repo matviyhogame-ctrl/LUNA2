@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " GS",
+    "GPS",
+    "G S"
+  ],
+  "key": {
+    "G": {
+      "item": "minecraft:glowstone_dust"
+    },
+    "S": {
+      "item": "minecraft:string"
+    },
+    "P": {
+      "item": "cyberpunk_implants:neural_processor"
+    }
+  },
+  "result": {
+    "item": "cyberpunk_implants:monowire"
+  }
+}

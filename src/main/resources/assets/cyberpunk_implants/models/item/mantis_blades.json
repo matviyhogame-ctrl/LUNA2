@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "cyberpunk_implants:item/mantis_blades"
+  }
+}

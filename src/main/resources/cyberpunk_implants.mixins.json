@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.edgerunners.cyberpunk.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "PlayerEntityCyberMixin"
+  ],
+  "client": [
+    "InGameHudCyberMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

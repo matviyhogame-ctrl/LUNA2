@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "cyberpunk_implants",
+  "version": "${version}",
+  "name": "Cyberpunk: Edgerunners [1:1 Edition]",
+  "description": "Полная адаптация киберимплантов, HUD-интерфейса, остаточных силуэтов Сандевистана и системы киберпсихоза из аниме Cyberpunk: Edgerunners.",
+  "authors": [
+    "EdgerunnerDev"
+  ],
+  "license": "MIT",
+  "icon": "assets/cyberpunk_implants/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.edgerunners.cyberpunk.CyberpunkImplantsMod"
+    ],
+    "client": [
+      "com.edgerunners.cyberpunk.CyberpunkImplantsClient"
+    ]
+  },
+  "mixins": [
+    "cyberpunk_implants.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.11.3",
+    "fabric": "*",
+    "minecraft": "1.16.5",
+    "java": ">=8"
+  }
+}

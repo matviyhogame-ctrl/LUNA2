@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "IT ",
+    "NPN",
+    " I "
+  ],
+  "key": {
+    "I": {
+      "item": "minecraft:iron_block"
+    },
+    "T": {
+      "item": "minecraft:tnt"
+    },
+    "N": {
+      "item": "minecraft:netherite_scrap"
+    },
+    "P": {
+      "item": "cyberpunk_implants:neural_processor"
+    }
+  },
+  "result": {
+    "item": "cyberpunk_implants:projectile_launcher"
+  }
+}
